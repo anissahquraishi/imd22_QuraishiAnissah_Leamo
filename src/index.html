@@ -4,19 +4,19 @@
     <meta charset="utf-8" />
     <title>eikon parcel starter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="scss/main.scss" />
+    <link rel="stylesheet" href="scss/main.scss"s/>
   </head>
   <body>
   <header>
     <nav>
-      <div class="menu container-fluid">
+      <div class="l-menu container-fluid">
         <div class="row">
           <div class="col">
               <ul class="nav d-flex justify-content-between">
                 <li class="nav-item"><a class="nav-link" href="#">Product</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">About</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Recipes</a></li>
-                <li class="nav-item ml-auto"><a class="nav-link" href="#">Shop</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
               </ul>
           </div>
       </div>
@@ -24,28 +24,27 @@
     <div class="title container-fluid">
       <div class="row">
         <div class="col-12">
-          <img src="img/Leamo-Logo .svg" alt="leamo logo-alterfood">
-         <!-- <img src="img/GINGERALE_A_01.webp" alt="image of leamo bottles" /> -->
+          <img src="img/Leamo-Logo .svg" alt="leamo logo-alterfood" class="custom-logo-size logo">
         </div>
         <div class="col-12">
           <div class="image-container">
             <img src="img/desktop_header.webp" class="image-desktop" alt="Desktop Image">
-            <img src="img/GINGERALE_A_01.webp" class="image-mobile" alt="Mobile Image">
+            <img src="img/gingerale.webp" class="image-mobile" alt="Mobile Image">
           </div>
       </div>
     </div>
   </header>
   <main>
-  <div class="product container-fluid">
+  <div class="l-product product container-fluid">
     <div class="row">
       <div class="col">
-        <div class="card-subtitle">
+        <div class="section-subtitle">
           <h3>Best-Seller</h3>
         </div>
-        <div class="card-title">
+        <div class="section-title">
           <h2 class="section-title">Green Tea Ginger</h2>
         </div>
-          <p class="card-text">
+          <p class="section-text">
             Known for it’s refreshing taste, Leamo Green Tea Ginger is a perfect
             drink for your break.
           </p>
@@ -53,42 +52,47 @@
             src="img/LEAMO-5075horizontal_47d77815-e42b-496e-ae65-4a160a97b05b_1000x1000.webp"
             alt="bottle of leamo thea limonade"
           />
-        </div>
-      <div class="col">
-          <a href="product.html">All Products</a>
+      <div class="col-12">
+          <a class="product-link" href="product.html">All Products</a>
           <img src="img/arrow.svg" alt="">
       </div>
         
       </div>
     </div>
-    <div class="values container-fluid">
+    <div class="l-values container-fluid">
       <div class="row">
         <div class="col">
+          <div class="section-subtitle">
+            <h3>About</h3>
+          </div>
           <h2 class="section-title">Our Values</h2>
+        </div>
+        <div class="col-12 col-lg-3">
           <h3 class="values-subtitle">Quality</h3>
-          <div class="col">
-          <p>
-            Leamo is quality drinks with natural recipes. Refreshing, they
-            highlight ethical sourcing to use quality ingredients that give all
-            their authenticity to the flavors of these drinks.
-          </p>
-        <div class="col">
+            <p class="values-text">
+              Leamo is quality drinks with natural recipes. Refreshing, they
+              highlight ethical sourcing to use quality ingredients that give all
+              their authenticity to the flavors of these drinks.
+            </p>
+          </div>
+        <div class="col-12 col-lg-3">
           <h3 class="values-subtitle">Experiences</h3>
-          <p>
+          <p class="values-text">
             We look for experiences to create; not products to sell. We start
             with learning from Mother Nature, then adapt to fit within her
             rules. Our work is the result of her power and beauty - this will
             forever be the case.
           </p>
         </div>
-        <div class="col">
+        <div class="col-12 col-lg-3">
           <h3 class="values-subtitle">Changes</h3>
-          <p>
+          <p class="values-text">
             Our competitive advantage comes from our holistic creative approach
             and ability to apply rapid changes to our business in real time.
           </p>
+        <div class="col-12 col-lg-3">
           <h3 class="values-subtitle">Values</h3>
-          <p>
+          <p class="values-text">
             The result is a product and brand experience unlike any other in the
             space. Because we move quickly and are focused on humanist values,
             we believe we have a distinct advantage over others in our category.
@@ -96,33 +100,43 @@
         </div>
       </div>
     </div>
-    <div class="recipes container-fluid">
+
+    <div class="l-recipes container-fluid">
       <div class="row">
         <div class="col">
-          <h3>Leamo based</h3>
-          <h2 class="section-title">Discover our best cocktails</h2> 
+          <h3 class="recipes-subtitle" >Leamo based</h3>
+          <h2 class="recipes-title">Discover our best cocktails</h2> 
         </div>
         <div class="col-12">   
-          <img src="img/best-cocktails.webp" class="custom-img" alt="bottle of leamo the limonade" />
+          <img src="img/best-cocktails.webp" class="custom-img" alt="bottle of leamo the limonade" class="ima/>
         </div>
         <div class="col-12">  
           <a href="product.html">All Recipes</a>
+          <img src="img/arrow_black.svg" alt="">
         </div>
       </div>
     </div>
-    <div class="shop container-fluid">
+
+    <div class="l-shop container-fluid">
       <div class="row">
-        <div class="col">
-          <h3>Shop</h3>
-          <h2>Where to find us</h2>
-          <h3>Local Shop</h3>
-          <p>Find Leamo now in your local markets</p>
-          <p>france</p>
-          <p>switzerland</p>
-          <p>belgium</p>
+        <div class="col-12">
+          <h3 class="shop-subtitle">Shop</h3>
+          <h2 class="shop-title">Where to find us</h2>
         </div>
         <div class="col-12">
-          <img src="img/shop.webp" alt="">
+          <h3 class="shop-subtitle">Local Shop </h3>
+          <p>Find Leamo now in your local markets</p>
+        </div>
+        <div class="col-12">
+          <p>france</p>
+          <img src="img/arrow_black.svg" alt="arrow">
+          <p>switzerland</p>
+          <img src="img/arrow_black.svg" alt="arrow">
+          <p>belgium</p>
+          <img src="img/arrow_black.svg" alt="arrow">
+        </div>
+        <div class="col-12">
+          <img src="img/shop.webp" alt="arrow">
         </div>
           <h3>Buy online</h3>
           <p>
@@ -132,13 +146,12 @@
             any controversial substances, fair in their manufacturing process
             and involved in the respect of the environment.
           </p>
-          <img src="img/logo-alterfood.svg" alt=""  class="img-custom-big"/>
+          <img src="img/logo-alterfood.svg" alt=""  class="image-custom-big"/>
         </div>
       </div>
     </div>
 
-    </div>
-    <div class="newsletter container-fluid">
+    <div class="l-newsletter container-fluid">
       <div class="row">
         <div class="col-sm-3 col-lg-3">
           <h2 class="newsletter-title">Join our Newsletter</h2>
@@ -148,7 +161,7 @@
     </div>
   </main>
   <footer>
-    <div class=" footer container-fluid">
+    <div class="l-footer container-fluid">
       <div class="row">
         <div class="col-sm-3 col-md-4 col-lg-3">
           

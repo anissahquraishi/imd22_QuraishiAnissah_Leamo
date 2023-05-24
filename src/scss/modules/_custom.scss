@@ -1,0 +1,26 @@
+.custom-img {
+  width: 727px;
+  height: auto;
+}
+
+@media (max-width: 575px) {
+  .mobile-image {
+    display: block;
+  }
+}
+
+.logo {
+  max-width: 100%;
+  padding-left: 63.65px;
+  padding-top: 138px;
+}
+
+.custom-logo-size {
+  max-width: 446px;
+}
+
+@media (max-width: 767px) {
+  .custom-logo-size {
+    max-width: 335px; /* Adjust the size as needed for mobile */
+  }
+}
