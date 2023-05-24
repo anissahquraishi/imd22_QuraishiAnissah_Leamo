@@ -9,29 +9,34 @@
   <body>
   <header>
     <nav>
-      <div class="navbar navbar-expand-lg navbar-light bg-light container">
+      <div class="menu container-fluid">
         <div class="row">
           <div class="col">
-              <ul>
-                <div class="col"> <li class="nav-link"><a href="#">Product</a></li></div>
-                <div class="col">  <li class="nav-link"><a href="#">about</li></div>
-                <div class="col">  <li class="nav-link"><a href="#">recipes</li></div>
-                <div class="col"> </div><li class="nav-link"><a href="#">Shop</li></div>
+              <ul class="nav d-flex justify-content-between">
+                <li class="nav-item"><a class="nav-link" href="#">Product</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Recipes</a></li>
+                <li class="nav-item ml-auto"><a class="nav-link" href="#">Shop</a></li>
               </ul>
           </div>
       </div>
     </nav>
-    <div class="title container">
+    <div class="title container-fluid">
       <div class="row">
-        <div class="col">
+        <div class="col-12">
           <img src="img/Leamo-Logo .svg" alt="leamo logo-alterfood">
-          <img src="img/GINGERALE_A_01.webp" alt="image of leamo bottles" />
+         <!-- <img src="img/GINGERALE_A_01.webp" alt="image of leamo bottles" /> -->
         </div>
+        <div class="col-12">
+          <div class="image-container">
+            <img src="img/desktop_header.webp" class="image-desktop" alt="Desktop Image">
+            <img src="img/GINGERALE_A_01.webp" class="image-mobile" alt="Mobile Image">
+          </div>
       </div>
     </div>
   </header>
   <main>
-  <div class="product container">
+  <div class="product container-fluid">
     <div class="row">
       <div class="col">
         <div class="card-subtitle">
@@ -48,11 +53,15 @@
             src="img/LEAMO-5075horizontal_47d77815-e42b-496e-ae65-4a160a97b05b_1000x1000.webp"
             alt="bottle of leamo thea limonade"
           />
-          <a href="product.html">All Products</a>
         </div>
+      <div class="col">
+          <a href="product.html">All Products</a>
+          <img src="img/arrow.svg" alt="">
+      </div>
+        
       </div>
     </div>
-    <div class="values container">
+    <div class="values container-fluid">
       <div class="row">
         <div class="col">
           <h2 class="section-title">Our Values</h2>
@@ -87,17 +96,21 @@
         </div>
       </div>
     </div>
-    <div class="recipes container">
+    <div class="recipes container-fluid">
       <div class="row">
         <div class="col">
           <h3>Leamo based</h3>
-          <h2 class="section-title">Discover our best cocktails</h2> </div>
-          <img src="img/cocktail.webp" alt="bottle of leamo the limonade" />
+          <h2 class="section-title">Discover our best cocktails</h2> 
+        </div>
+        <div class="col-12">   
+          <img src="img/best-cocktails.webp" class="custom-img" alt="bottle of leamo the limonade" />
+        </div>
+        <div class="col-12">  
           <a href="product.html">All Recipes</a>
         </div>
       </div>
     </div>
-    <div class="shop container">
+    <div class="shop container-fluid">
       <div class="row">
         <div class="col">
           <h3>Shop</h3>
@@ -125,7 +138,7 @@
     </div>
 
     </div>
-    <div class="newsletter container">
+    <div class="newsletter container-fluid">
       <div class="row">
         <div class="col-sm-3 col-lg-3">
           <h2 class="newsletter-title">Join our Newsletter</h2>
@@ -135,7 +148,7 @@
     </div>
   </main>
   <footer>
-    <div class=" footer container">
+    <div class=" footer container-fluid">
       <div class="row">
         <div class="col-sm-3 col-md-4 col-lg-3">
           

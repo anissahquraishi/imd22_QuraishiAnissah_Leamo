@@ -1,0 +1,20 @@
+.image-container {
+  position: relative;
+}
+
+.image-desktop,
+.image-mobile {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .image-desktop {
+    display: block;
+  }
+}
+
+@media (max-width: 575px) {
+  .image-mobile {
+    display: block;
+  }
+}
