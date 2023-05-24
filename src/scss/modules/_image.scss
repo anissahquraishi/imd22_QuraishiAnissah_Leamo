@@ -9,7 +9,12 @@
 
 @media (min-width: 576px) {
   .image-desktop {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-desktop {
+    padding: 18.75px 60px 132px;
   }
 }
 
